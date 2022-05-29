@@ -20,7 +20,7 @@ header{
 
 .img-wrapper{ /*logo*/
     position: relative;
-    left: 3rem;
+    left: 1rem;
     
 }
 
@@ -34,7 +34,7 @@ header{
     font-size: 15px;
     text-decoration: none;
     font-family: 'Tiro Tamil';
-    margin-right: 35px;
+    margin-right: 10px;
     transition: 1s;
 }
 
