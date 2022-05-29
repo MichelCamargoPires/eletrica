@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&family=Tiro+Tamil:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.img-wrapper{ /*logo*/
+    position: relative;
+    left: 3rem;
+    
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{ /*menu antes de */
+    color: rgb(235, 97, 18);
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Tiro Tamil';
+    margin-right: 35px;
+    transition: 1s;
+}
+
+.menu a:hover{
+    color: rgb(71, 202, 241);
+}
+
+.menu .btn-menu{
+    background-color: rgb(71, 202, 241);;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover{
+    background-color: rgb(255, 124, 47);
+    color: white;
+}
+
+
+
+
+
+
+
+/*font-fami'Oswald'ly: , sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Tiro Tamil', serif*/
